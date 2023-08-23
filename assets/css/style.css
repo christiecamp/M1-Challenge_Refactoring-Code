@@ -2,6 +2,7 @@
 * {
     box-sizing: border-box;
     padding: 0;
+     /* Sets top and bottom margin to 0px */
     margin: 0;
 }
 
@@ -14,6 +15,7 @@ body {
 
 /* Class Selectors select all elements with that class */
 .header {
+    /* Sets padding on all sides to 20px */
     padding: 20px;
     /* Font-family property specifies a list of fonts to be used in order of priority */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -63,6 +65,7 @@ p {
 /*Sets the height and width of the section */
     height: 800px;
     width: 100%;
+    /* Sets bottom margin to 25 */
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;

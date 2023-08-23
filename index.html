@@ -4,26 +4,27 @@
 
 <!-- header -->
 <head>
-    <!-- character set     -->
+    <!-- <meta> element defintes metadata for the page - character set     -->
     <meta charset="UTF-8" />
     <!-- link to the style sheet -->
     <!-- the rel attribute specifies relationship between linked documents -->
-    <!-- The href attribute points to the relative path of the stylesheet-->
+    <!-- the href attribute points to the relative path of the stylesheet-->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- <title> element is required in every HTML - provides metadata name for the page. -->
     <title>website</title>
 </head>
 
 <body>
-    <!-- A class is used to identify one or more elements -->
-    <!-- The lesson class is assigned to the section -->
-    <!--Class attributes added for styling -->
+    <!-- a class is used to identify one or more elements -->
+    <!-- the lesson class is assigned to the section -->
+    <!--class attributes added for styling -->
     <section class="header">
         <!-- h1 tag is used for the most important heading -->
         <h1>Hori<span class="seo">seo</span>n</h1>
-
-        <div>
+        <!--the <nav> tag is used for navigation links -->
+        <nav>
             <!-- unordered list -->
-            <!--Unordered lists are block elements-->
+            <!--unordered lis>ts are block elements-->
             <ul>
                 <!-- list -->
                 <li>
@@ -38,19 +39,22 @@
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        </div>
+        </nav>
     </section>
     
     
     <div class="hero"></div>
-    <div class="content">
+
+
+    <section class="content">
         <div class="search-engine-optimization">
-            <!-- The 'img' attribute specifies an image -->
-            <!--Image using src to point to relative path and descriptive alt attributes-->
-            <!--Images <img> are inline elements-->
+            <!-- the 'img' attribute specifies an image -->
+            <!-- the src attribute is used with <img> to specify an absolute or relative path to an image -->
+            <!--images <img> are inline elements-->
+             <!-- the alt attribute specifies the alternative text for an image -->
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="Search Engine Optimization"/>
             <h2>Search Engine Optimization</h2>
-            <!--Paragraph <p> elements are block elements-->
+            <!--paragraph <p> elements are block elements-->
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
@@ -69,8 +73,10 @@
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
             </p>
         </div>
-    </div>
-    <div class="benefits">
+    </section>
+
+
+    <aside class="benefits">
         <div class="benefit-lead">
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" alt="Lead Generation"/>
@@ -92,8 +98,9 @@
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
         </div>
-    </div>
+    </aside>
     
+
     <section class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>

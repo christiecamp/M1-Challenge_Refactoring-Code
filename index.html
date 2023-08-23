@@ -1,27 +1,35 @@
 <!DOCTYPE html>
-//language set to US english
+<!-- language set to US english -->
 <html lang="en-us">
 
-//header
+<!-- header -->
 <head>
-//character set    
+    <!-- character set     -->
     <meta charset="UTF-8" />
-//linked the style sheet to html
+    <!-- link to the style sheet -->
+    <!-- the rel attribute specifies relationship between linked documents -->
+    <!-- the href attribute creates a link to another file or webpage -->
+    <!-- The href attribute points to the relative path of the stylesheet-->
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>website</title>
 </head>
 
-
 <body>
-    //site header
-    <div class="header">
-        //h1 tag is used for the most important heading
+    <!-- A class is used to identify one or more elements -->
+    <!-- The lesson class is assigned to the section -->
+    <!--Class attributes added for styling -->
+    <section class="header">
+        <!-- h1 tag is used for the most important heading -->
         <h1>Hori<span class="seo">seo</span>n</h1>
+
         <div>
-            //unordered list
+            <!-- unordered list -->
+            <!--Unordered lists are block elements-->
             <ul>
-                //list
+                <!-- list -->
                 <li>
+                    <!-- the href attribute is used with <a> to specify a URL -->
+                    <!--Anchor elements <a> are inline elements-->
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
                 </li>
                 <li>
@@ -32,14 +40,18 @@
                 </li>
             </ul>
         </div>
-    </div>
+    </section>
+    
+    
     <div class="hero"></div>
     <div class="content">
         <div class="search-engine-optimization">
-            //image
+            <!-- The 'img' attribute specifies an image -->
+            <!--Image using src to point to relative path and descriptive alt attributes-->
+            <!--Images <img> are inline elements-->
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
             <h2>Search Engine Optimization</h2>
-            //paragrah
+            <!--Paragraph <p> elements are block elements-->
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>

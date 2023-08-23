@@ -1,21 +1,29 @@
+/* Universal Selector */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Element Selectors select all of that element type */
 body {
+    /* Sets background color */
+    /* Uses hex codes to define color */
     background-color: #d9dcd6;
 }
 
+/* Class Selectors select all elements with that class */
 .header {
     padding: 20px;
+    /* Font-family property specifies a list of fonts to be used in order of priority */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
+    /* Sets font color */
     color: #ffffff;
 }
 
 .header h1 {
+    /* Sets display of all elements with class selector to inline */
     display: inline-block;
     font-size: 48px;
 }
@@ -47,10 +55,12 @@ a {
 }
 
 p {
+    /* Sets font size in paragraph */
     font-size: 16px;
 }
 
 .hero {
+/*Sets the height and width of the section */
     height: 800px;
     width: 100%;
     margin-bottom: 25px;

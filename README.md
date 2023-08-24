@@ -49,7 +49,7 @@ To impress clients, you should always exceed expectations and improve the codeba
 
 The following image shows the web application's appearance and functionality:
 
-![Alt text](<Screen Shot 2023-08-24 at 6.11.38 PM.png>)
+![Alt text](assets/images/screenshot.png)
 
 ## Changes Made to Code
 
@@ -57,7 +57,7 @@ The following image shows the web application's appearance and functionality:
 
 ## Link to Website
 
-
+[CHRISTINE'S PROJECT](https://christiecamp.github.io/M1-Challenge_Refactoring-Code/)
 
 ## Grading Requirements
 

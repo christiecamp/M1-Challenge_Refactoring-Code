@@ -1,4 +1,4 @@
-# 01 CHALLENGE - hw1_code-refractor
+# M1 CHALLENGE - Refactoring Code
 
 
 ## User Story

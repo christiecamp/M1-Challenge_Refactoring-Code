@@ -15,7 +15,7 @@ body {
 /*changed from .header*/
 header {
     /* Sets padding on all sides to 20px */
-    padding: 20px , 30px;
+    padding: 20px;
     /* Font-family property specifies a list of fonts to be used in order of priority */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;

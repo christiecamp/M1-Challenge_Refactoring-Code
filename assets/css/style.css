@@ -6,6 +6,12 @@
     margin: 0;
 }
 
+body {
+    /* Sets background color */
+    /* Uses hex codes to define color */
+    background-color: #d9dcd6;
+}
+
 /*changed from .header*/
 header {
     /* Sets padding on all sides to 20px */
@@ -15,20 +21,6 @@ header {
     background-color: #2a607c;
     /* Sets font color */
     color: #ffffff;
-}
-
-/* Element Selectors select all of that element type */
-body {
-    /* Sets background color */
-    /* Uses hex codes to define color */
-    background-color: #d9dcd6;
-}
-
-/*changed .content to main*/
-main {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
 }
 
 h1 {
@@ -41,6 +33,7 @@ h1 {
     color: #d9dcd6;
 }
 
+/* Element Selectors select all of that element type */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -63,20 +56,27 @@ a {
     text-decoration: none;
 }
 
+.hero {
+    /*Sets the height and width of the image */
+        height: 800px;
+        width: 100%;
+        /* Sets bottom margin to 25 */
+        margin-bottom: 25px;
+        background-image: url("../images/digital-marketing-meeting.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+
+/*changed .content to main*/
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
 p {
     /* Sets font size in paragraph */
     font-size: 16px;
-}
-
-.hero {
-/*Sets the height and width of the image */
-    height: 800px;
-    width: 100%;
-    /* Sets bottom margin to 25 */
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
 }
 
 /*grouped elements together with similar function*/
